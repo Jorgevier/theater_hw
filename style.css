@@ -1,0 +1,66 @@
+.centered {
+    position:absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    white-space: nowrap;
+    color: white;
+}
+.container{
+    margin-bottom: 100px;
+}
+body header ul{
+    list-style-type: none;
+    display: inline;
+    position: absolute;
+    right: 250px;
+    top: 25px;
+}
+body header ul a{
+    font-size: 12px;
+    margin-right: 60px;
+    color: white;
+    text-decoration: none;
+}
+header{
+    background-color: black;
+    margin: 0%;
+    border: 0%;
+}
+header h1{
+    color: white;
+    position: absolute;
+    left: 90px;
+}
+#date{
+    background-color: rgb(227, 224, 224);
+    border: 2px solid grey;
+    margin: auto;
+    width: 60%;
+    margin-bottom: 30px;  
+}
+.pic{
+    height: auto;
+    width: 175px;
+    margin-left: 20%;
+}
+body div div{
+    display:flex;
+ }
+.info{
+    padding-left: 60px;
+    line-height: 200%;
+}
+button{
+    background-color: rgb(229, 180, 32); 
+    border: none;
+    color: white;
+    margin: 80px 100px 80px 100px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+    border: 1px solid black;
+    margin-left: 13%;
+}
